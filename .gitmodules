@@ -1,3 +1,6 @@
 [submodule "FEI"]
 	path = FEI
 	url = https://github.com/ChristianGLuna/FEI.git
+[submodule "Ecommerce"]
+	path = Ecommerce
+	url = https://github.com/ChristianGLuna/Ecommerce.git
