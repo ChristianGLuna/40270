@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos [
+    <!ELEMENT alumno (alumno#)>
+    <!ELEMENT alumno (nombre, apellido, curso)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT curso (#PCDATA)>
+    <!ATTLIST alumno id ID #REQUIRED
+    edad CDATA #IMPLIED
+    becado (si|no) "no">
+]>
+
+<alumnos>
+    <alumno>
+        <nombre></nombre>
+    </alumno>
+    <alumno>
+        <nombre></nombre>
+    </alumno>
+</alumnos>
