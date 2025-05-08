@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: arial;
 }
 
 h1{
@@ -29,7 +30,8 @@ input{
 
 }
 
-input[type="button"]{
+input[type="button"], input[type="submit"]{
+    font-size: 95%;
     color: white;
     background-color: darkcyan;
 }
